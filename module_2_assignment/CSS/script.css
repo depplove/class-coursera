@@ -3,6 +3,9 @@
 		margin: 0;
 		padding: 0;
 	}
+	body{
+		padding: 10px;
+	}
 
 	h1{
 		font-family: serif sans-serif;
@@ -10,9 +13,12 @@
 		margin-top: 10px;
 		margin-bottom: 15px;
 	}
-
+	
+	
 	.column{
-		padding: 8px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom:20px;
 	}
 	@media (min-width: 992px) {
 		.col-lg-4{
@@ -34,7 +40,10 @@
 
 	@media (max-width: 767px) {
 		.column{
-			margin: 15px;
+			margin-bottom: 20px;
+		}
+		body{
+			padding: 15px;
 		}
 	}
 	.inner{
