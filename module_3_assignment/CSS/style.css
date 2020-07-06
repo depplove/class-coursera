@@ -1,0 +1,44 @@
+	.description{
+		background-color: lightgray;
+		margin-top: 25px;
+		width: 85%;
+	}
+
+	p{
+		text-align: justify;
+	}
+
+	nav.navbar{
+		background-color:#312929;
+		padding: 0;
+	}
+
+	li.item{
+		border-top: 1px solid black;
+		color: black;
+	}
+
+	ul.navbar-nav{
+		border: 1px solid black;
+		padding: 4px 8px;
+		background-color: #5A4E4E;
+	}
+
+	a.navbar-brand{
+		padding-left: 10px;
+	}
+
+	@media (min-width: 678px) {
+
+		button{
+			visibility: hidden;
+		}
+
+		ul.navbar-nav{
+			visibility: hidden;
+		}
+		nav{
+			height: 40px;
+		}
+		
+	}
